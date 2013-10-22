@@ -5,8 +5,8 @@ padding: 0;
 }
 
 body {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 28px;
     font-family: helvetica, sans-serif, arial;
 }
 
@@ -27,7 +27,7 @@ header h1 {
 	padding:0px;
 	text-align:center;
 	border-bottom:solid #aaa 2px;
-	font-size:17px;
+	font-size:30px;
 	line-height:25px;
 }  
 
@@ -42,8 +42,10 @@ header h1 {
 #name {
     padding-bottom:5%;
 	font-weight:400;
-	color:#000;
+	color:#aaa;
     margin-left: 39%;
+    font-family: helvetica, sans-serif, arial;
+
 }
 
 #header li {
@@ -77,13 +79,16 @@ header a:visited{
 
 
 article h1 {
-    font-size: 36px;
+    text-align: center;
+    font-family: sans-serif, arial, helvetica;
+    color: #000;
+    font-size: 30px;
     line-height: 44px;
-    margin-top: 4px;
+    margin-top: 14px;
 }
 
 article h2 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
     margin-bottom: 4px;
 }
@@ -96,7 +101,7 @@ article h2 {
 
 #content_right {
     overflow: hidden;
-	width:193px;
+	width:20%;
 	float:right;
 	padding-right: 10px;
 }
@@ -105,6 +110,12 @@ article h2 {
 #content {
     margin-left:50%;
     margin-right:50%;
+}
+
+#blog {
+    text-align: center;
+    padding: 0 0 15px 0;
+    font-size: 20px;
 }
 
 footer {
