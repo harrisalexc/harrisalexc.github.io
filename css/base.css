@@ -21,6 +21,10 @@ header h1 {
     padding: 20px 10px 20px 10px;
 } 
 
+header h3 {
+    margin-top: 60px;
+}
+
 #nav {
     font-family:helvetica, sans-serif, arial;
 	width:940px;
@@ -122,4 +126,8 @@ footer {
     text-align: center;
     font-size: 12px;
     padding: 0 10px 0 10px;
+}
+
+@media screen (max-width: 600px) {
+    
 }
